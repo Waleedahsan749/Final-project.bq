@@ -1,0 +1,29 @@
+.primary-subtle {
+    color: --bs-primary-bg-subtle;
+}
+.info-subtle{
+    color: --bs-info-bg-subtle;
+}
+body {
+    background-color: var(--bs-primary-bg-subtle) !important;
+    min-height: 100vh !important;
+}
+/* #drop {
+    color: white;
+} */
+a[class="text-muted"] > svg{
+    width: 24px;
+    height: 24px;
+    fill: white;
+}
+select {
+    width: 100% !important;
+}
+#nameCity {
+    text-transform: capitalize !important;
+}
+span[class="bl"] {
+    color: var(--bs-info);
+}
+
+
